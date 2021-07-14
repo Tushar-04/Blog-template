@@ -1,0 +1,29 @@
+.content{
+    margin: 50px 0px;
+    display: grid;
+    width: 70%;
+    align-self: center;
+    grid-template-columns: repeat(3,auto);
+}
+.blog-article{
+    margin: 20px;
+}
+.blog-article-img img {
+    width: 100%;
+}
+.blog-article-content a{
+    text-decoration: none;
+    color: #222;
+}
+@media screen and (max-width:1000px) {
+    .content{
+        width: 80%;
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media screen and (max-width:750px) {
+    .content{
+        width: 80%;
+        grid-template-columns: repeat(1,auto);
+    }
+}

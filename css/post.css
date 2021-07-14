@@ -1,0 +1,50 @@
+.content{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-self: center;
+    margin-bottom:70px ;
+}
+.top-img img{
+    width: 100%;
+}
+.blog-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+}
+.author{
+    margin-top: 30px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.article{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.article h1{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.article p{
+    margin: 20px 0px;
+}
+.article img{
+    margin: 20px 0px;
+}
+
+@media screen and (max-width:750px) {
+    .content{
+        width: 90%;
+    }
+}

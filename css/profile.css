@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: teal;
+}
+.info{
+    height: 500px;
+    border: 3px solid black;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+.info h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.info p{
+    text-align: center;
+    padding-top: 30px;
+}
