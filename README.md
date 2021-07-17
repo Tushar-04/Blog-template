@@ -17,4 +17,4 @@ last_name varchar(128) not null, username varchar(128) not null,email_id varchar
 create table contact(cid int primary key not null AUTO_INCREMENT, first_name varchar(128) not null,<br>
 last_name varchar(128) not null,email varchar(128) not null, subject varchar(128) not null,
 <br> message text not null);<br><br>
-!Note: plz create exactly same database and if you are making changes in database also make required changes in files of Php folder.
+
