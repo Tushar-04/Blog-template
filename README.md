@@ -4,7 +4,7 @@ People who are intrested in writing you can submit your own article which upon a
 
 #TECHNOLOAGE USED:
 
-HTML
-CSS
-JavaScript
-PHP
+HTML.
+CSS.
+JavaScript.
+PHP.
